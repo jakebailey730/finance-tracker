@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "user_id": 1,
+        "name": "income of my wages"
+    },
+    {
+        "id": 2,
+        "user_id": 1,
+        "name": "food"
+    },
+    {
+        "id": 3,
+        "user_id": 1,
+        "name": "drink"
+    },
+    {
+        "id": 4,
+        "user_id": 1,
+        "name": "gym"
+    },
+    {
+        "id": 5,
+        "user_id": 1,
+        "name": "gaming"
+    },
+    {
+        "id": 6,
+        "user_id": 1,
+        "name": "income"
+    },
+    {
+        "id": 7,
+        "user_id": 1,
+        "name": "school"
+    },
+    {
+        "id": 8,
+        "user_id": 1,
+        "name": "gym gym"
+    },
+    {
+        "id": 9,
+        "user_id": 3,
+        "name": "food"
+    },
+    {
+        "id": 10,
+        "user_id": 3,
+        "name": "drink"
+    },
+    {
+        "id": 11,
+        "user_id": 4,
+        "name": "food"
+    }
+]

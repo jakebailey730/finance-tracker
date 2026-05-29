@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "first_name": "John",
+        "last_name": "Test",
+        "email": "John@test.com",
+        "password": "$2y$10$5Umh0DQKru1027VT3aZFY.q8.6\/K4Sd\/iVbsMzIIUZub5X1.SIKce",
+        "currency": "GBP"
+    },
+    {
+        "id": 2,
+        "first_name": "John",
+        "last_name": "test",
+        "email": "test@test.com",
+        "password": "$2y$10$Ov3ldevZl70EyZujvB2\/eendqWmoPRkTKhbFMrD.UWzZ\/Klr99gcW",
+        "currency": "GBP"
+    },
+    {
+        "id": 3,
+        "first_name": "max",
+        "last_name": "cowen",
+        "email": "test@email.com",
+        "password": "$2y$10$QcQsDGeSaB6jAkNqq279kevHQql.3mtTrTmqfrts\/6bhmEUUZOtnm",
+        "currency": "GBP"
+    },
+    {
+        "id": 4,
+        "first_name": "jake",
+        "last_name": "bailey",
+        "email": "jake.bailey730@googlemail.com",
+        "password": "$2y$10$eI.Qgf.pjsMtR84Qj.jEmuFPgvumnFNhy08q9Mw2kW1rkzqYOFNW2",
+        "currency": "GBP"
+    }
+]

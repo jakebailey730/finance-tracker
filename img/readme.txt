@@ -1,0 +1,1 @@
+No images included in this application as of yet as we do not have a company logo

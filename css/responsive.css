@@ -1,0 +1,62 @@
+/* Mobile-first typography settings.
+   Smaller font sizes are defined first to ensure content is readable on mobile devices.
+   A mobile first approach is used so styles progressively enhance as screen size increases, improving performance and responsiveness. */
+
+h1 {
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-size: 1.3rem;
+}
+
+
+/* Tablet breakpoint (768px and above).
+   Font sizes and spacing are increased to improve readability on medium-sized screens.
+   Padding is also increased to provide better visual spacing for card content. */
+
+@media (min-width: 768px) {
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .card-body {
+        padding: 2rem;
+    }
+}
+
+
+/* Desktop breakpoint (992px and above).
+   Layout width is increased to make better use of available screen space while maintaining readability through a controlled maximum width.
+   Navigation branding is also slightly enlarged for improved visibility. */
+
+@media (min-width: 992px) {
+
+    .container {
+        max-width: 1200px;
+    }
+
+    .navbar-brand {
+        font-size: 1.4rem;
+    }
+}
+
+
+/* Large screen breakpoint (1200px and above).
+   Further increases to heading sizes improve readability on larger displays ensuring the interface scales appropriately without appearing too small. */
+
+@media (min-width: 1200px) {
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+}

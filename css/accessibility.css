@@ -1,0 +1,63 @@
+/* Skip link used to improve accessibility for keyboard and screen reader users.
+   It allows users to bypass repetitive navigation and jump directly to main content.
+   The link is visually hidden off-screen by default but becomes visible when focused. */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 10px;
+    background: #000;
+    color: #fff;
+    padding: 8px 12px;
+    z-index: 1000;
+    text-decoration: none;
+}
+
+/* When the skip link receives keyboard focus, move it into view
+   so it can be used. This supports WCAG accessibility guidelines. */
+.skip-link:focus {
+    top: 10px;
+}
+
+
+/* Provide a strong visible focus indicator for all interactive elements.
+   This improves keyboard navigation and ensures compliance with accessibility standards,
+   making it clear which element is currently selected. */
+:focus {
+    outline: 3px solid #ffbf47;
+    outline-offset: 2px;
+}
+
+
+/* Reinforce focus styling specifically for buttons and links.
+   This ensures key interactive elements remain clearly visible when navigating via keyboard improving usability for non-mouse users. */
+button:focus,
+a:focus {
+    outline: 3px solid #ffbf47;
+}
+
+
+/* Override Bootstrap's muted text colour to improve contrast. */
+.text-muted {
+    color: #555 !important;
+}
+
+
+/* Highlight invalid form inputs using a red border.
+   This provides immediate visual feedback when user input does not meet validation rules improving usability and error recognition. */
+input:invalid,
+select:invalid {
+    border-color: #dc3545;
+}
+
+/* Apply consistent invalid styling when using server-side validation classes. The !important ensures it overrides default framework styles if necessary. */
+.is-invalid {
+    border-color: #dc3545 !important;
+}
+
+/* Display validation error messages clearly below inputs. Styling ensures readability and consistent spacing across the application. */
+.invalid-feedback {
+    display: block;
+    font-size: 0.875rem;
+    color: #dc3545;
+    margin-top: 0.25rem;
+}
